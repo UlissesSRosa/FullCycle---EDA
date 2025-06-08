@@ -1,0 +1,15 @@
+server:
+  port: 3001
+  address: 0.0.0.0
+spring:
+  kafka:
+    bootstrap-servers: kafka:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+  datasource:
+    url: jdbc:postgresql://postgres_wallet:5432/wallet
+    username: user
+    password: pass
+  flyway:
+    enabled: true

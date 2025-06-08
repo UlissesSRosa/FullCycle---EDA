@@ -1,0 +1,10 @@
+com\fullcycle\eda\services\WalletService.class
+com\fullcycle\eda\WalletCoreApplication.class
+com\fullcycle\eda\dto\TransactionRequestDTO.class
+com\fullcycle\eda\repositories\entities\TransactionEvent.class
+com\fullcycle\eda\resources\WalletController.class
+com\fullcycle\eda\dto\TransactionEventDTO$TransactionEventDTOBuilder.class
+com\fullcycle\eda\repositories\entities\TransactionEvent$TransactionEventBuilder.class
+com\fullcycle\eda\dto\TransactionEventDTO.class
+com\fullcycle\eda\dto\TransactionRequestDTO$TransactionRequestDTOBuilder.class
+com\fullcycle\eda\repositories\TransactionEventRepository.class

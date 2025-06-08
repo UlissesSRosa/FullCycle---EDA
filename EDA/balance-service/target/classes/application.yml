@@ -1,0 +1,18 @@
+server:
+  port: 3003
+  address: 0.0.0.0
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: kafka:9092
+      group-id: balance-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: com.fullcycle.eda.balanceservice.dto
+  datasource:
+    url: jdbc:postgresql://postgres_balance:5432/balance
+    username: user
+    password: pass
+  flyway:
+    enabled: true
