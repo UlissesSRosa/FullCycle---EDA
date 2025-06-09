@@ -2,7 +2,8 @@
 
 ## 📖 Descrição
 
-Este projeto é uma aplicação que faz parte do módulo de EDA do curso FullCycle 3.0 containerizada utilizando Docker Compose para facilitar sua execução e distribuição.
+Este projeto é uma aplicação que faz parte do módulo de EDA do curso FullCycle 3.0 
+containerizada utilizando Docker Compose para facilitar sua execução e distribuição.
 
 ## 🚀 Pré-requisitos
 
